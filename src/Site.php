@@ -11,7 +11,7 @@ class Site
 	/**
 	 * 版本
 	 */
-	protected static $cms_install_version = '20191122';
+	protected static $cms_install_version = '20200105';
 	/**
 	 * 开发者用户
 	 */
