@@ -11,7 +11,7 @@ class Site
 	/**
 	 * 版本
 	 */
-	protected static $cms_install_version = '20200105';
+	protected static $cms_install_version = '20200304';
 	/**
 	 * 开发者用户
 	 */
@@ -33,7 +33,7 @@ class Site
 	 */
 	protected static $cms_wx_js_tpl = 'public/static/html/wx/index.html';
 	/**
-	 * 弹出微信js生成目录
+	 * 弹出微信js生成文件
 	 */
 	protected static $cms_wx_js_file = 'public/static/page/js/wx.js';
 
@@ -102,7 +102,7 @@ class Site
 		return self::$cms_wx_js_tpl;
 	}
 	/**
-	 * 弹出微信js生成目录
+	 * 弹出微信js生成文件
 	 * @return mixed
 	 */
 	public static function getCmsWxJsFile()
