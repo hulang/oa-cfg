@@ -3,7 +3,7 @@
     "description": "oa php library",
     "license": "Apache-2.0",
     "type": "library",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "keywords": [
         "php",
         "library"
@@ -20,6 +20,9 @@
     "autoload": {
         "psr-4": {
             "hulang\\cfg\\": "src/"
-        }
+        },
+        "files": [
+            "src/helper.php"
+        ]
     }
 }
