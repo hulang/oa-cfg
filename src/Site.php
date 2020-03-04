@@ -45,7 +45,7 @@ class Site
 	 * 获取配置
 	 * @return array
 	 */
-	public static function getConfig()
+	public static function getCmsConfig()
 	{
 		$data = [];
 		$data['cms_install_version'] = self::$cms_install_version;

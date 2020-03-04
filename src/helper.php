@@ -8,14 +8,14 @@
 
 declare(strict_types=1);
 
-if (!function_exists('getConfig')) {
+if (!function_exists('getCmsConfig')) {
     /**
      * 获取配置
      * @return array
      */
-    function getConfig()
+    function getCmsConfig()
     {
-        return \hulang\cfg\Site::getConfig();
+        return \hulang\cfg\Site::getCmsConfig();
     }
 }
 if (!function_exists('getCmsInstallVersion')) {
