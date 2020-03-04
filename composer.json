@@ -3,7 +3,7 @@
     "description": "oa php library",
     "license": "Apache-2.0",
     "type": "library",
-    "version": "1.0.4",
+    "version": "1.0.3",
     "keywords": [
         "php",
         "library"
