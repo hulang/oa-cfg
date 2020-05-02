@@ -18,16 +18,6 @@ if (!function_exists('getCmsConfig')) {
         return \hulang\cfg\Site::getCmsConfig();
     }
 }
-if (!function_exists('getCmsInstallVersion')) {
-    /**
-     * 版本
-     * @return mixed
-     */
-    function getCmsInstallVersion()
-    {
-        return \hulang\cfg\Site::getCmsInstallVersion();
-    }
-}
 if (!function_exists('getCmsDeveloperUserId')) {
     /**
      * 开发者用户
