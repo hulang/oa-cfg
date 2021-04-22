@@ -15,7 +15,7 @@ class Site
 	/**
 	 * 开发者用户
 	 */
-	protected static $cms_developer_user_id = [1, 2];
+	protected static $cms_developer_user_id = [2];
 	/**
 	 * 落地页生成目录
 	 */
