@@ -13,6 +13,10 @@ namespace hulang\cfg;
 class Site
 {
     /**
+     * OA 版本
+     */
+    protected static $cms_version = '2.0';
+    /**
      * 开发者用户
      */
     protected static $cms_developer_user_id = [1, 2];
@@ -44,6 +48,7 @@ class Site
     public static function getCmsConfig()
     {
         $data = [];
+        $data['cms_version'] = self::$cms_version;
         $data['cms_developer_user_id'] = self::$cms_developer_user_id;
         $data['cms_page_html_dir'] = self::$cms_page_html_dir;
         $data['cms_page_view_url'] = self::$cms_page_view_url;
@@ -51,6 +56,14 @@ class Site
         $data['cms_wx_js_tpl'] = self::$cms_wx_js_tpl;
         $data['cms_wx_js_file'] = self::$cms_wx_js_file;
         return $data;
+    }
+    /**
+     * OA 版本
+     * @return mixed
+     */
+    public static function getCmsVersion()
+    {
+        return self::$cms_version;
     }
     /**
      * 开发者用户
