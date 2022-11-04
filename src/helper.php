@@ -8,6 +8,16 @@
 
 declare(strict_types=1);
 
+if (!function_exists('getCmsVersion')) {
+    /**
+     * OA 版本
+     * @return array
+     */
+    function getCmsVersion()
+    {
+        return \hulang\cfg\Site::getCmsVersion();
+    }
+}
 if (!function_exists('getCmsConfig')) {
     /**
      * 获取配置
