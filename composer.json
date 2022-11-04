@@ -3,19 +3,18 @@
     "description": "oa php library",
     "license": "Apache-2.0",
     "type": "library",
-    "version": "1.0.8",
     "keywords": [
         "php",
         "library"
     ],
     "authors": [
         {
-            "name": "快乐浪子哥",
+            "name": "hulang",
             "email": "hulangfy@163.com"
         }
     ],
     "require": {
-        "php": ">=7.0.0"
+        "php": ">=7.2.5"
     },
     "autoload": {
         "psr-4": {
