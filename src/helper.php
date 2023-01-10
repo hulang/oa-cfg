@@ -11,7 +11,7 @@ declare(strict_types=1);
 if (!function_exists('getCmsVersion')) {
     /**
      * OA 版本
-     * @return array
+     * @return mixed|string
      */
     function getCmsVersion()
     {
@@ -21,7 +21,7 @@ if (!function_exists('getCmsVersion')) {
 if (!function_exists('getCmsConfig')) {
     /**
      * 获取配置
-     * @return array
+     * @return mixed|array
      */
     function getCmsConfig()
     {
@@ -31,7 +31,7 @@ if (!function_exists('getCmsConfig')) {
 if (!function_exists('getCmsDeveloperUserId')) {
     /**
      * 开发者用户
-     * @return mixed
+     * @return mixed|array
      */
     function getCmsDeveloperUserId()
     {
@@ -41,7 +41,7 @@ if (!function_exists('getCmsDeveloperUserId')) {
 if (!function_exists('getCmsPageHtmlDir')) {
     /**
      * 落地页生成目录
-     * @return mixed
+     * @return mixed|string
      */
     function getCmsPageHtmlDir()
     {
@@ -51,7 +51,7 @@ if (!function_exists('getCmsPageHtmlDir')) {
 if (!function_exists('getCmsPageViewUrl')) {
     /**
      * 内部落地页访问URL
-     * @return mixed
+     * @return mixed|string
      */
     function getCmsPageViewUrl()
     {
@@ -61,7 +61,7 @@ if (!function_exists('getCmsPageViewUrl')) {
 if (!function_exists('getCmsPageDefaultDir')) {
     /**
      * 落地页默认文件目录
-     * @return mixed
+     * @return mixed|string
      */
     function getCmsPageDefaultDir()
     {
@@ -71,7 +71,7 @@ if (!function_exists('getCmsPageDefaultDir')) {
 if (!function_exists('getCmsWxJsTpl')) {
     /**
      * 弹出微信js模板文件
-     * @return mixed
+     * @return mixed|string
      */
     function getCmsWxJsTpl()
     {
@@ -81,7 +81,7 @@ if (!function_exists('getCmsWxJsTpl')) {
 if (!function_exists('getCmsWxJsFile')) {
     /**
      * 弹出微信js生成文件
-     * @return mixed
+     * @return mixed|string
      */
     function getCmsWxJsFile()
     {
