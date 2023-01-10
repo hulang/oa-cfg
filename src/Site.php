@@ -16,7 +16,7 @@ class Site
      * OA 版本
      * @return mixed|string
      */
-    protected static $cms_version = '2.0';
+    protected static $cms_version = '2.0.1';
     /**
      * 开发者用户
      * @return mixed|array
