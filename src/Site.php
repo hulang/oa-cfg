@@ -2,7 +2,7 @@
 
 /**
  * +----------------------------------------------------------------------
- * 网站配置,修改无效,每次更新OA自动安装一次
+ * 网站落地页配置,修改无效,每次更新OA自动安装一次
  * +----------------------------------------------------------------------
  */
 
@@ -14,36 +14,43 @@ class Site
 {
     /**
      * OA 版本
+     * @return mixed|string
      */
     protected static $cms_version = '2.0';
     /**
      * 开发者用户
+     * @return mixed|array
      */
     protected static $cms_developer_user_id = [1, 2];
     /**
      * 落地页生成目录
+     * @return mixed|string
      */
     protected static $cms_page_html_dir = 'public/static/html/info/';
     /**
      * 内部落地页访问URL
+     * @return mixed|string
      */
     protected static $cms_page_view_url = '/static/html/info/';
     /**
      * 落地页默认文件目录
+     * @return mixed|string
      */
     protected static $cms_page_default_dir = 'public/static/html/index/';
     /**
      * 弹出微信js模板文件
+     * @return mixed|string
      */
     protected static $cms_wx_js_tpl = 'public/static/html/wx/index.html';
     /**
      * 弹出微信js生成文件
+     * @return mixed|string
      */
     protected static $cms_wx_js_file = 'public/static/page/js/wx.js';
 
     /**
      * 获取配置
-     * @return array
+     * @return mixed|array
      */
     public static function getCmsConfig()
     {
@@ -59,7 +66,7 @@ class Site
     }
     /**
      * OA 版本
-     * @return mixed
+     * @return mixed|string
      */
     public static function getCmsVersion()
     {
@@ -67,7 +74,7 @@ class Site
     }
     /**
      * 开发者用户
-     * @return mixed
+     * @return mixed|array
      */
     public static function getCmsDeveloperUserId()
     {
@@ -75,7 +82,7 @@ class Site
     }
     /**
      * 落地页生成目录
-     * @return mixed
+     * @return mixed|string
      */
     public static function getCmsPageHtmlDir()
     {
@@ -83,7 +90,7 @@ class Site
     }
     /**
      * 内部落地页访问URL
-     * @return mixed
+     * @return mixed|string
      */
     public static function getCmsPageViewUrl()
     {
@@ -91,7 +98,7 @@ class Site
     }
     /**
      * 落地页默认文件目录
-     * @return mixed
+     * @return mixed|string
      */
     public static function getCmsPageDefaultDir()
     {
@@ -99,7 +106,7 @@ class Site
     }
     /**
      * 弹出微信js模板文件
-     * @return mixed
+     * @return mixed|string
      */
     public static function getCmsWxJsTpl()
     {
@@ -107,7 +114,7 @@ class Site
     }
     /**
      * 弹出微信js生成文件
-     * @return mixed
+     * @return mixed|string
      */
     public static function getCmsWxJsFile()
     {
