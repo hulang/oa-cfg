@@ -31,7 +31,7 @@ class Site
      * 系统|版本
      * @return mixed|string
      */
-    protected static $sys_version = '2.0.0';
+    protected static $sys_version = '2.0.2';
     /**
      * 开发者用户
      * @return mixed|array
