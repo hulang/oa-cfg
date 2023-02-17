@@ -8,83 +8,113 @@
 
 declare(strict_types=1);
 
-if (!function_exists('getCmsVersion')) {
+if (!function_exists('getSysName')) {
     /**
-     * OA 版本
+     * 系统|名称
      * @return mixed|string
      */
-    function getCmsVersion()
+    function getSysName()
     {
-        return \hulang\cfg\Site::getCmsVersion();
+        return \hulang\cfg\Site::getSysName();
     }
 }
-if (!function_exists('getCmsConfig')) {
+if (!function_exists('getSysAuthor')) {
+    /**
+     * 系统|作者
+     * @return mixed|string
+     */
+    function getSysAuthor()
+    {
+        return \hulang\cfg\Site::getSysAuthor();
+    }
+}
+if (!function_exists('getSysRelease')) {
+    /**
+     * 系统|更新时间
+     * @return mixed|string
+     */
+    function getSysRelease()
+    {
+        return \hulang\cfg\Site::getSysRelease();
+    }
+}
+if (!function_exists('getSysVersion')) {
+    /**
+     * 系统|版本
+     * @return mixed|string
+     */
+    function getSysVersion()
+    {
+        return \hulang\cfg\Site::getSysVersion();
+    }
+}
+if (!function_exists('getSysConfig')) {
     /**
      * 获取配置
      * @return mixed|array
      */
-    function getCmsConfig()
+    function getSysConfig()
     {
-        return \hulang\cfg\Site::getCmsConfig();
+        return \hulang\cfg\Site::getSysConfig();
     }
 }
-if (!function_exists('getCmsDeveloperUserId')) {
+if (!function_exists('getSysDeveloperUserId')) {
     /**
      * 开发者用户
      * @return mixed|array
      */
-    function getCmsDeveloperUserId()
+    function getSysDeveloperUserId()
     {
-        return \hulang\cfg\Site::getCmsDeveloperUserId();
+        return \hulang\cfg\Site::getSysDeveloperUserId();
     }
 }
-if (!function_exists('getCmsPageHtmlDir')) {
+if (!function_exists('getSysPageHtmlDir')) {
     /**
      * 落地页生成目录
      * @return mixed|string
      */
-    function getCmsPageHtmlDir()
+    function getSysPageHtmlDir()
     {
-        return \hulang\cfg\Site::getCmsPageHtmlDir();
+        return \hulang\cfg\Site::getSysPageHtmlDir();
     }
 }
-if (!function_exists('getCmsPageViewUrl')) {
+if (!function_exists('getSysPageViewUrl')) {
     /**
      * 内部落地页访问URL
      * @return mixed|string
      */
-    function getCmsPageViewUrl()
+    function getSysPageViewUrl()
     {
-        return \hulang\cfg\Site::getCmsPageViewUrl();
+        return \hulang\cfg\Site::getSysPageViewUrl();
     }
 }
-if (!function_exists('getCmsPageDefaultDir')) {
+if (!function_exists('getSysPageDefaultDir')) {
     /**
      * 落地页默认文件目录
      * @return mixed|string
      */
-    function getCmsPageDefaultDir()
+    function getSysPageDefaultDir()
     {
-        return \hulang\cfg\Site::getCmsPageDefaultDir();
+        return \hulang\cfg\Site::getSysPageDefaultDir();
     }
 }
-if (!function_exists('getCmsWxJsTpl')) {
+if (!function_exists('getSysWxJsTpl')) {
     /**
      * 弹出微信js模板文件
      * @return mixed|string
      */
-    function getCmsWxJsTpl()
+    function getSysWxJsTpl()
     {
-        return \hulang\cfg\Site::getCmsWxJsTpl();
+        return \hulang\cfg\Site::getSysWxJsTpl();
     }
 }
-if (!function_exists('getCmsWxJsFile')) {
+if (!function_exists('getSysWxJsFile')) {
     /**
      * 弹出微信js生成文件
      * @return mixed|string
      */
-    function getCmsWxJsFile()
+    function getSysWxJsFile()
     {
-        return \hulang\cfg\Site::getCmsWxJsFile();
+        return \hulang\cfg\Site::getSysWxJsFile();
     }
 }
